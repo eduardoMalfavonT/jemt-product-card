@@ -24,7 +24,7 @@ export interface Props {
 
 export const productContext = createContext({} as ProductContextProps);
 const { Provider } = productContext;
-
+// Comentarios
 export const ProductCard = ({
   children,
   product,
